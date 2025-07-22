@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+   /*header*/
+}
+.titulo {
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    padding-top: 60px;
+    text-shadow: #ffffff 4px 4px 4px;
+    
+}
+
+.titulo h2 {
+    color:rgb(249, 123, 60);
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    text-shadow: #ffffff 2px 2px 4px;
+    
+}
+   
+header {
+    background-image:url("../img/arena.jpg");
+    background-size: cover;
+    height: 300px;
+}
+
+/*main*/
+
+main {
+    
+    background-color: #ffffff;
+}
+
+.productos {
+    background-color: rgb(207, 201, 189);
+    padding: 20px;
+    text-align: center;
+}
+
+.productos p{
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+    padding:10px 10px;
+}
+
+.productos h3{
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+}
+.tablas_principiantes {
+    padding: 100px;
+    border: 10px; 
+    margin: 20px 20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}      
+.imagen_principiante img{
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+
+} 
+
+
+
+.tablas_intermedio {
+    padding: 100px;
+    border: 10px; 
+    margin: 20px 20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}      
+.imagen_intermedio img {
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.tablas_avanzado {
+    padding: 100px;
+    border: 10px; 
+    margin: 20px 20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}      
+.imagen_avanzado img {
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+} 
+
+.texto_principiante {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.texto_intermedio {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto_avanzado {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    background-color: rgb(139, 49, 13);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
